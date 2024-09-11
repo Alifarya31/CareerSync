@@ -1,0 +1,166 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+header {
+  background-color: #fff;
+  color: #003366;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
+
+.logo-img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links.left {
+  justify-content: center;
+}
+
+.nav-links.right {
+  justify-content: flex-end;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+}
+
+.auth a.btn {
+  background-color: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* CSS untuk halaman Potential Workers */
+.workers-section {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workers-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.worker-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.worker-column {
+  width: 45%;
+}
+
+.worker {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.worker-image {
+  margin-right: 20px;
+}
+
+.worker-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.worker-info {
+  flex: 1;
+}
+
+.worker-info h3 {
+  margin-bottom: 10px;
+}
+
+.worker-info p {
+  color: #555;
+}
+
+/* CSS untuk logo */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="navigation_left">
+          <img src="./assets/logo.png" class="navigation_left_logo_image" />
+          <div class="navigation_left_name_title">CareerSync</div>
+        </div>
+        <div class="navigation_middle">
+          <div class="navigation_middle_home_button button_3">Home</div>
+          <div class="navigation_middle_profile_button button_3">Profile</div>
+          <div class="navigation_middle_notification_button button_3">
+            Notification
+          </div>
+          <div
+            class="navigation_middle_company_button button_3 selected_button_3"
+          >
+            Company
+          </div>
+        </div>
+        <div class="navigation_right">
+          <select class="navigation_right_mode select_option_1">
+            <option value="System">System</option>
+            <option value="Light">Light</option>
+            <option value="Dark">Dark</option>
+          </select>
+          <div class="navigation_right_log_in_button button_1">Log In</div>
+          <div class="navigation_right_sign_up_button button_1">Sign Up</div>
+        </div>
+      </div>
+      <div class="header">
+        <img src="./assets/header.jpg" class="header_image" />
+      </div>
+      <div class="content">
+        <div class="content_job_search">
+          <div class="content_job_search_country_combobox combobox_1">
+            <input
+              type="text"
+              class="content_job_search_country_combobox_text combobox_text_1"
+              placeholder="Select Country ..."
+            />
+            <select
+              class="content_job_search_country_combobox_select combobox_select_1"
+              size="10"
+            ></select>
+          </div>
+          <div class="content_job_search_province_combobox combobox_1">
+            <input
+              type="text"
+              class="content_job_search_province_combobox_text combobox_text_1"
+              placeholder="Select Province ..."
+            />
+            <select
+              class="content_job_search_province_combobox_select combobox_select_1"
+              size="10"
+            ></select>
+          </div>
+          <div class="content_job_search_district_combobox combobox_1">
+            <input
+              type="text"
+              class="content_job_search_district_combobox_text combobox_text_1"
+              placeholder="Select District ..."
+            />
+            <select
+              class="content_job_search_district_combobox_select combobox_select_1"
+              size="10"
+            ></select>
+          </div>
+          <div class="content_job_search_industry_combobox combobox_1">
+            <input
+              type="text"
+              class="content_job_search_industry_combobox_text combobox_text_1"
+              placeholder="Select Industry ..."
+            />
+            <select
+              class="content_job_search_industry_combobox_select combobox_select_1"
+              size="10"
+            ></select>
+          </div>
+          <div class="content_job_search_skill_combobox combobox_1">
+            <input
+              type="text"
+              class="content_job_search_skill_combobox_text combobox_text_1"
+              placeholder="Select Skill ..."
+            />
+            <select
+              class="content_job_search_skill_combobox_select combobox_select_1"
+              size="10"
+            ></select>
+          </div>
+          <div class="content_job_search_search_button button_2">Search</div>
+        </div>
+        <div class="content_job_list">
+          <div class="content_job_list_frame">
+            <div class="content_job_list_no_data_title">No Data</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer_top">
+          <div class="footer_top_left"></div>
+          <div class="footer_top_middle"></div>
+          <div class="footer_top_right"></div>
+        </div>
+        <div class="footer_bottom"></div>
+      </div>
+    </div>
+    <script src="../database/database.js"></script>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>

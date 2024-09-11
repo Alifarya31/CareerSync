@@ -1,0 +1,224 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+header {
+  background-color: #fff; /* Mengubah warna navbar menjadi putih */
+  color: #003366; /* Mengubah warna teks menjadi biru */
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Membagi navbar menjadi 3 kolom */
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-self: start; /* Posisikan logo di awal (kiri) */
+}
+
+.logo-img {
+  width: 40px; /* Ukuran logo */
+  height: auto;
+  margin-right: 10px; /* Jarak antara logo dan teks */
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Pusatkan tautan */
+}
+
+.nav-links.left {
+  justify-content: center; /* Tautan sebelah kiri diposisikan di tengah */
+}
+
+.nav-links.right {
+  justify-content: flex-end; /* Tautan sebelah kanan diposisikan di akhir (kanan) */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0; /* Hapus margin kanan dari elemen terakhir */
+}
+
+.nav-links li a {
+  color: #003366; /* Mengubah warna teks tautan menjadi biru */
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+}
+
+.auth a.btn {
+  background-color: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* CSS untuk bagian sambutan di bawah navbar */
+.welcome-section {
+  background-image: url("images/orangkerja.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.welcome-text {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.welcome-text h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  font-size: 18px;
+}
+
+.btn-container {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+/* CSS untuk bagian fitur-fitur */
+.feature-section {
+  background-color: #f0f2f5; /* Warna latar belakang */
+  padding: 50px 20px; /* Padding atas dan bawah untuk ruang kosong */
+  display: flex;
+  justify-content: space-around; /* Sebar fitur secara merata */
+  flex-wrap: wrap; /* Bungkus fitur agar responsif */
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px; /* Lebar maksimum untuk setiap fitur */
+  margin: 20px; /* Margin antara setiap fitur */
+}
+
+.feature img {
+  width: 100px; /* Ukuran ikon */
+  height: 100px;
+}
+
+.feature h3 {
+  margin-top: 20px; /* Jarak antara judul dan deskripsi */
+}
+
+.feature p {
+  color: #555; /* Warna teks deskripsi */
+}
+
+/* CSS untuk bagian notifikasi */
+.notification-section {
+  padding: 50px 20px;
+}
+
+.notification-section h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification {
+  display: flex; /* Menggunakan flexbox untuk tata letak horizontal */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 600px;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.notification-text {
+  flex: 1; /* Mengambil sisa ruang yang tersedia */
+}
+
+.notification-text p {
+  color: #555;
+}
+/* CSS untuk logo */
+.logo-img {
+  width: 40px; /* Ukuran logo */
+  height: 40px;
+  border-radius: 50%; /* Membuat gambar memiliki bentuk lingkaran */
+  margin-right: 10px; /* Jarak antara logo dan teks */
+}

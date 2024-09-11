@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Organization_SignUp.css" />
+    <title>Sign Up - CareerSync</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="CareerSync.jpg" alt="CareerSync Logo" />
+          <h1>CareerSync</h1>
+        </div>
+        <ul class="nav-links left"></ul>
+        <div class="auth right">
+          <a href="../Organization_Login/Organization_Login.html" class="btn"
+            >Login</a
+          >
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="form-container-wrapper">
+      <div class="form-container">
+        <h2>Sign Up</h2>
+        <form>
+          <label for="organization-name">Organization Name:</label>
+          <input
+            type="text"
+            id="organization-name"
+            name="organization-name"
+            required
+          />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+          <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p class="login-link">
+          Sudah punya akun? <a href="login.html">Login</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
